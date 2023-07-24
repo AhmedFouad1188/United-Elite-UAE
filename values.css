@@ -1,0 +1,195 @@
+* {box-sizing: border-box;}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@font-face {
+font-family: Expo Arabic;
+src: url("Expo Arabic Bold.ttf");
+}
+
+@font-face {
+font-family: Expo Arabic;
+src: url("Expo Arabic Light.ttf");
+}
+
+body {margin: 0;}
+
+.upper {display: flex; flex-direction: row;
+    background-color: rgb(244,244,244); height: 11%}
+    
+    .logo {margin-left: 6%; margin-top: auto; width: 100%;
+    margin-bottom: auto;}
+    
+    .logolink {margin-left: 6%; margin-top: auto; width: 9%;
+      height: 65%; margin-bottom: auto;}
+    
+    .menu {width: 70%; display: flex; flex-direction: row; 
+      margin-left: 3%;}
+    
+    .menu1 {display: flex; flex-direction: row; margin: 3%;}
+    
+.zoom {color: inherit; text-decoration: none; 
+font: bold 1.2vw "Expo Arabic"; 
+color: rgb(42,55,146);
+transition: transform .2s;}
+    
+.zoom:hover {transform: scale(1.1); color: rgb(169,17,17);}
+
+.valuecont {background-image: url('values.png'); 
+width: 85%; margin-left: auto; margin-right: auto;
+margin-top: 4%; display: flex; flex-direction: column;
+border-radius: 1vw; background-size: 100%;}
+
+.valuetitle {font: bold 5.5vw "Expo Arabic"; 
+color: rgb(255, 255, 255); margin-left: 7%;
+margin-top: 5.5%; margin-bottom: 5%;
+text-shadow: -0.2vw 0.2vw 2vw rgb(0, 0, 0);}
+
+.integcont {background-color: rgb(244,244,244); 
+    width: 85%; margin-left: auto; margin-right: auto;
+    padding: 4%; margin-top: 5%; display: flex;
+    flex-direction: column; border-radius: 1vw;
+    background-image: url('integrity.png');
+    background-repeat: no-repeat; background-size: 32%;
+background-position: 95% 50%; transition: transform .2s;}
+
+.integcont:hover {transform: scale(1.1);}
+
+.title {font: bold 4vw "Expo Arabic"; 
+color: rgb(169,17,17); margin-bottom: 2%; margin-left: 3%;}
+
+.intro {color: rgb(42,55,146); 
+font: bold 1.5vw "Expo Arabic"; margin-left: 5%;
+text-align: justify; width: 60%; margin-bottom: 2%;}
+
+.title2 {font: bold 4vw "Expo Arabic"; 
+    color: rgb(169,17,17); margin-bottom: 2%; margin-left: 35%;}
+    
+.intro2 {color: rgb(42,55,146); 
+    font: bold 1.5vw "Expo Arabic"; margin-left: 37%;
+    text-align: justify; width: 60%; margin-bottom: 2%;}
+
+.expcont {background-color: rgb(244,244,244); 
+    width: 85%; margin-left: auto; margin-right: auto;
+    padding: 4%; margin-top: 6%; display: flex;
+    flex-direction: column; border-radius: 1vw;
+    background-image: url('expertise.png');
+    background-repeat: no-repeat; background-size: 32%;
+background-position: 5% 50%; transition: transform .2s;}
+
+.expcont:hover {transform: scale(1.1);}
+
+.colcont {background-color: rgb(244,244,244); 
+    width: 85%; margin-left: auto; margin-right: auto;
+    padding: 4%; margin-top: 6%; display: flex;
+    flex-direction: column; border-radius: 1vw;
+    background-image: url('collaboration.png');
+    background-repeat: no-repeat; background-size: 30%;
+background-position: 95% 50%; transition: transform .2s;}
+
+.colcont:hover {transform: scale(1.1);}
+
+.focuscont {background-color: rgb(244,244,244); 
+    width: 85%; margin-left: auto; margin-right: auto;
+    padding: 4%; margin-top: 6%; display: flex;
+    flex-direction: column; border-radius: 1vw;
+    background-image: url('clientfocus.png');
+    background-repeat: no-repeat; background-size: 30%;
+background-position: 5% 50%; transition: transform .2s;}
+
+.focuscont:hover {transform: scale(1.1);}
+
+.inncont {background-color: rgb(244,244,244); 
+    width: 85%; margin-left: auto; margin-right: auto;
+    padding: 4%; margin-top: 6%; display: flex;
+    flex-direction: column; border-radius: 1vw;
+    background-image: url('innovation.png');
+    background-repeat: no-repeat; background-size: 28%;
+background-position: 95% 50%; transition: transform .2s;}
+
+.inncont:hover {transform: scale(1.1);}
+
+.accesscont {background-color: rgb(244,244,244); 
+    width: 85%; margin-left: auto; margin-right: auto;
+    padding: 4%; margin-top: 6%; display: flex;
+    flex-direction: column; border-radius: 1vw;
+    background-image: url('access.png');
+    background-repeat: no-repeat; background-size: 30%;
+background-position: 5% 50%; transition: transform .2s;}
+
+.accesscont:hover {transform: scale(1.1);}
+
+.transcont {background-color: rgb(244,244,244); 
+    width: 85%; margin-left: auto; margin-right: auto;
+    padding: 4%; margin-top: 6%; display: flex;
+    flex-direction: column; border-radius: 1vw;
+    background-image: url('trans.png');
+    background-repeat: no-repeat; background-size: 30%;
+background-position: 95% 50%; transition: transform .2s;}
+
+.transcont:hover {transform: scale(1.1);}
+
+.respcont {background-color: rgb(244,244,244); 
+    width: 85%; margin-left: auto; margin-right: auto;
+    padding: 4%; margin-top: 6%; display: flex;
+    flex-direction: column; border-radius: 1vw;
+    background-image: url('resp.png');
+    background-repeat: no-repeat; background-size: 32%;
+background-position: 5% 50%; transition: transform .2s;}
+
+.respcont:hover {transform: scale(1.1);}
+
+footer {display: flex; flex-direction: column;
+margin-top: 4%;}
+
+.footercont {display: flex; flex-direction: row;
+background-color: rgb(42,55,146); padding: 4%;}
+
+.footlogo {margin-left: 5%; margin-top: auto; width: 150%;
+margin-bottom: auto;}
+
+.footlogolink {margin-left: 5%; margin-top: auto; width: 15%; 
+  margin-bottom: auto;}
+
+.links {display: flex; flex-direction: column; width: 12%;
+margin-left: 15%; margin-top: auto; margin-bottom: auto;
+border-left: 0.2vw solid white;}
+
+.footmenu {text-decoration: none; margin: 14%;
+  font: bold 1.3vw "Expo Arabic"; 
+  color: rgb(253, 253, 253);}
+
+.footmenu:hover {color: rgb(169,17,17);}
+
+.address {font: 1.3vw "Expo Arabic"; 
+  color: rgb(253, 253, 253); margin-left: 15%;
+margin-top: auto; margin-bottom: auto;}
+
+.rights {font: bold 1.2vw "Expo Arabic";
+color: rgb(42,55,146); text-align: center;}
+
+#progress {
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    height: 70px;
+    width: 70px;
+    display: none;
+    place-items: center;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+#progress-value {
+    display: block;
+    height: calc(100% - 15px);
+    width: calc(100% - 15px);
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    font-size: 35px;
+    color: rgb(169,17,17);
+}

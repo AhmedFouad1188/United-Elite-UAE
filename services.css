@@ -1,0 +1,204 @@
+* {box-sizing: border-box;}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@font-face {
+font-family: Expo Arabic;
+src: url("Expo Arabic Bold.ttf");
+}
+
+@font-face {
+font-family: Expo Arabic;
+src: url("Expo Arabic Light.ttf");
+}
+
+body {margin: 0;}
+
+.upper {display: flex; flex-direction: row;
+    background-color: rgb(244,244,244); height: 11%}
+    
+    .logo {margin-left: 6%; margin-top: auto; width: 100%;
+    margin-bottom: auto;}
+    
+    .logolink {margin-left: 6%; margin-top: auto; width: 9%;
+      height: 65%; margin-bottom: auto;}
+    
+    .menu {width: 70%; display: flex; flex-direction: row; 
+      margin-left: 3%;}
+    
+    .menu1 {display: flex; flex-direction: row; margin: 3%;}
+    
+.zoom {color: inherit; text-decoration: none; 
+font: bold 1.2vw "Expo Arabic"; 
+color: rgb(42,55,146);
+transition: transform .2s;}
+    
+.zoom:hover {transform: scale(1.1); color: rgb(169,17,17);}
+
+.ourservcont {background-image: url('Service.png'); 
+width: 85%; margin-left: auto; margin-right: auto;
+margin-top: 4%; background-size: 100%; border-radius: 1vw;
+padding: 4%;}
+
+.ourservtitle {font: bold 5.5vw "Expo Arabic"; 
+    color: rgb(255, 255, 255); margin-left: 3%;
+margin-top: 1.5%;
+text-shadow: -0.2vw 0.2vw 2vw rgb(5, 5, 5);}
+
+.consultcont {background-color: rgb(244,244,244); 
+    width: 85%; margin-left: auto; margin-right: auto;
+    padding: 2%; margin-top: 4%; display: flex;
+    flex-direction: row; border-radius: 1vw;}
+
+.consultcont1 {display: flex; flex-direction: column;
+margin-top: 6%;}
+
+.consultbanner {width: 45%; margin-left: -3%;}
+
+.consulttitle {font: bold 3.5vw "Expo Arabic"; 
+color: rgb(169,17,17); margin-left: -4%;
+margin-top: 1%;}
+
+.consultintro {color: rgb(42,55,146); 
+font: bold 1.5vw "Expo Arabic"; margin-left: 0%;
+margin-top: 5%; text-align: justify; width: 85%;}
+
+.whyfincont {background-color: rgb(244,244,244); 
+    width: 85%; margin-left: auto; margin-right: auto;
+    padding: 5%; margin-top: 6%; display: flex;
+    flex-direction: row; border-radius: 1vw;}
+
+.whyfintitle {font: bold 4vw "Expo Arabic"; 
+    color: rgb(169,17,17); margin-left: 4%;
+    margin-top: auto; margin-bottom: auto; width: 20%;}
+
+.whyintrocont {display: flex; flex-direction: column;}
+
+.whyfinintro {color: rgb(42,55,146); 
+    font: bold 1.5vw "Expo Arabic"; margin-left: 18%;
+    margin-top: auto; margin-bottom: auto;
+    text-align: justify; width: 80%; padding: 1%;}
+
+.fincont {background-color: rgb(244,244,244); 
+width: 85%; margin-left: auto; margin-right: auto;
+padding: 5%; margin-top: 6%; display: flex;
+flex-direction: row; border-radius: 1vw;}
+
+.finintrocont {display: flex; flex-direction: column;}
+
+.fintitle {font: bold 4vw "Expo Arabic"; 
+    color: rgb(169,17,17); margin-left: 1%; margin-right: 4%;
+    margin-top: auto; margin-bottom: auto; width: 40%;}
+
+.finintro {color: rgb(42,55,146); 
+    font: bold 1.5vw "Expo Arabic"; margin-left: 4%;
+    margin-top: auto; margin-bottom: auto;
+    text-align: justify; width: 85%; padding: 1%;}
+
+.mortcont {background-color: rgb(244,244,244); 
+    width: 85%; margin-left: auto; margin-right: auto;
+    padding: 2%; margin-top: 6%; display: flex;
+    flex-direction: row; border-radius: 1vw;}
+
+.mortcont1 {display: flex; flex-direction: column;}
+
+.mortbanner {width: 45%;}
+
+.morttitle {font: bold 3.5vw "Expo Arabic"; 
+color: rgb(169,17,17); margin-left: 9%;
+margin-top: 9%; margin-bottom: 2%;}
+
+.mortintro {color: rgb(42,55,146); 
+font: bold 1.4vw "Expo Arabic"; margin-left: 12%;
+margin-top: 4%; text-align: justify;}
+
+.autocont {background-color: rgb(244,244,244); 
+    width: 85%; margin-left: auto; margin-right: auto;
+    padding: 2%; margin-top: 6%; display: flex;
+    flex-direction: row; border-radius: 1vw;}
+
+.autocont1 {display: flex; flex-direction: column;
+margin-bottom: 3%;}
+
+.autobanner {width: 40%;}
+
+.autotitle {font: bold 3.5vw "Expo Arabic"; 
+color: rgb(169,17,17); margin-left: 4%;
+margin-top: 9%; margin-bottom: 2%;}
+
+.autointro {color: rgb(42,55,146); 
+font: bold 1.4vw "Expo Arabic"; margin-left: 7%;
+margin-top: 3%; text-align: justify; width: 80%;}
+
+.creditcont {background-color: rgb(244,244,244); 
+    width: 85%; margin-left: auto; margin-right: auto;
+    padding: 2%; margin-top: 6%; display: flex;
+    flex-direction: row; border-radius: 1vw;}
+
+.creditcont1 {display: flex; flex-direction: column;
+margin-bottom: 3%;}
+
+.creditbanner {width: 53%;}
+
+.credittitle {font: bold 3.5vw "Expo Arabic"; 
+color: rgb(169,17,17); margin-left: 9%;
+margin-top: 9%; margin-bottom: 2%;}
+
+.creditintro {color: rgb(42,55,146); 
+font: bold 1.4vw "Expo Arabic"; margin-left: 15%;
+margin-top: 3%; text-align: justify; width: 90%;}
+
+footer {display: flex; flex-direction: column;
+margin-top: 4%;}
+
+.footercont {display: flex; flex-direction: row;
+background-color: rgb(42,55,146); padding: 4%;}
+
+.footlogo {margin-left: 5%; margin-top: auto; width: 150%;
+margin-bottom: auto;}
+
+.footlogolink {margin-left: 5%; margin-top: auto; width: 15%; 
+  margin-bottom: auto;}
+
+.links {display: flex; flex-direction: column; width: 12%;
+margin-left: 15%; margin-top: auto; margin-bottom: auto;
+border-left: 0.2vw solid white;}
+
+.footmenu {text-decoration: none; margin: 14%;
+  font: bold 1.3vw "Expo Arabic"; 
+  color: rgb(253, 253, 253);}
+
+.footmenu:hover {color: rgb(169,17,17);}
+
+.address {font: 1.3vw "Expo Arabic"; 
+  color: rgb(253, 253, 253); margin-left: 15%;
+margin-top: auto; margin-bottom: auto;}
+
+.rights {font: bold 1.2vw "Expo Arabic";
+color: rgb(42,55,146); text-align: center;}
+
+#progress {
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    height: 70px;
+    width: 70px;
+    display: none;
+    place-items: center;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+#progress-value {
+    display: block;
+    height: calc(100% - 15px);
+    width: calc(100% - 15px);
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    font-size: 35px;
+    color: rgb(169,17,17);
+}
