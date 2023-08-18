@@ -1,0 +1,159 @@
+* {box-sizing: border-box;}
+
+@font-face {
+  font-family: Expo Arabic;
+  src: url("Expo Arabic Bold.ttf");
+}
+
+@font-face {
+  font-family: Expo Arabic;
+  src: url("Expo Arabic Light.ttf");
+}
+
+body {margin: 0;}
+
+.upper {display: flex; flex-direction: row;
+background-color: rgb(244,244,244); height: 11%;}
+
+.logo {margin-left: 6%; margin-top: auto; width: 100%;
+margin-bottom: auto;}
+
+.logolink {margin-left: 6%; margin-top: auto; width: 9%;
+  height: 65%; margin-bottom: auto;}
+
+.menu {width: 70%; display: flex; flex-direction: row; 
+  margin-left: 3%;}
+
+.menu1 {display: flex; flex-direction: row; margin: 3%;}
+
+.zoom {color: inherit; text-decoration: none; 
+  font: bold 1.2vw "Expo Arabic"; 
+  color: rgb(42,55,146);
+  transition: transform .2s;}
+
+.zoom:hover {transform: scale(1.1); color: rgb(169,17,17);}
+
+@media only screen and (max-width: 1200px) {
+  .sendcont {margin-top: 5% !important;}
+  .mail {font-size: 2.7vw !important; margin-top: 3% !important;
+  height: 10vh !important; width: 40vw !important;}
+}
+
+@media only screen and (max-width: 1000px) {
+  .mail {height: 5vh !important; padding: 1.5% !important;
+  font-size: 2.8vw !important;}
+}
+
+@media only screen and (max-width: 500px) {
+  .mail {font-size: 4vw !important; margin-top: 3% !important;
+    height: 4vh; width: 60vw !important; border-radius: 2vw !important;
+  max-height: 4.5vh; padding: 1.5% !important;}
+  }
+
+.announce {font: bold 5vw "Expo Arabic"; text-align: center;
+height: 100vh; position: relative; overflow: hidden;
+background-image: linear-gradient(to bottom right, rgba(42,55,146,0.5), rgba(42,55,146,0.5), rgb(250, 250, 250));}
+
+.ulogo {width: 70%; position: absolute; bottom: -15%; left: 45%;
+    margin-left: 3%; opacity: 0.2;}
+
+.career {font-size: 5vw; color: rgb(42,55,146);
+padding-top: 5%; text-shadow: -0.4vw 0.4vw 3vw rgb(250, 250, 250);}
+
+.hire {font-size: 4vw; color: rgb(246, 246, 246);}
+
+.apply {font-size: 6.5vw; color: rgb(169,17,17);}
+
+.sendcont {align-items: center;}
+
+.send {font-size: 4vw; color: rgb(255, 255, 255);}
+
+.mail {width: 35%; border-color: rgb(42,55,146);
+border-style: solid; border-radius: 1vw;
+background-color: white; opacity: 0.45;
+font: bold 2vw "Expo Arabic"; text-decoration: none;
+color: rgb(42,55,146); text-align: center; padding: 1%;
+transition: transform .2s; box-shadow: -0.08vw 0.08vw 1vw rgb(0, 0, 0);}
+
+.mail:hover {transform: scale(1.05); opacity: 0.68;}
+
+footer {display: flex; flex-direction: column;
+    margin-top: 4%;}
+    
+    .footercont {display: flex; flex-direction: row;
+    background-color: rgb(42,55,146); padding: 4%;}
+    
+    .footlogo {margin-top: auto; width: 180%;
+    margin-bottom: auto;}
+    
+    .footlogolink {margin-top: auto; width: 18%; 
+      margin-bottom: auto;}
+    
+    .links {display: flex; flex-direction: column; width: 16%;
+    margin-left: 14%; margin-top: auto; margin-bottom: auto;
+    border-left: 0.2vw solid white;}
+    
+    .footmenu {text-decoration: none; margin: 14%;
+      font: bold 1.3vw "Expo Arabic"; 
+      color: rgb(253, 253, 253);}
+    
+    .footmenu:hover {color: rgb(169,17,17);}
+    
+    .address {font: 1.3vw "Expo Arabic"; 
+      color: rgb(253, 253, 253); margin-left: 5%;
+    margin-top: auto; margin-bottom: auto; width: 41%;}
+    
+    .location {margin-top: auto; margin-bottom: auto;}
+    
+    .find {font: bold 2.5vw "Expo Arabic"; 
+      color: rgb(253, 253, 253); margin-left: 30%;
+    margin-bottom: 4%;}
+    
+    .locimg {width: 100%; border-radius: 1.5vw;}
+    
+    .loclink {display: inline-block; margin-left: 30%;
+    width: 60%;}
+    
+    .rights {font: bold 1.2vw "Expo Arabic";
+    color: rgb(42,55,146); text-align: center;
+    margin: auto; padding: 1%;}
+    
+    .reveal{
+      position: relative;
+      transform: translateY(30px);
+      opacity: 0;
+      transition: 2s all ease;
+    }
+    .reveal.active{
+      transform: translateY(0);
+      opacity: 1;
+    }
+    
+    html {
+      scroll-behavior: smooth;
+    }
+    
+    #progress {
+      position: fixed;
+      bottom: 20px;
+      right: 10px;
+      height: 70px;
+      width: 70px;
+      display: none;
+      place-items: center;
+      border-radius: 50%;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      cursor: pointer;
+    }
+    #progress-value {
+      display: block;
+      height: calc(100% - 15px);
+      width: calc(100% - 15px);
+      background-color: #ffffff;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      font-size: 35px;
+      color: rgb(169,17,17);
+    }
+    

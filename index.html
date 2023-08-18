@@ -2,9 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, 
+initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>United Elite</title>
     <link href="styles.css" rel="stylesheet">
+    <link href="bootstrap.css" rel="stylesheet">
     <script src="united.js"></script>
     <script src="https://kit.fontawesome.com/2aeb6e50b3.js" crossorigin="anonymous"></script>
 </head>
@@ -20,23 +22,26 @@
         <a class="zoom menu1" href='index.html'>Home</a>
         <a class="zoom menu1" href='index2.html'>Services</a>
         <a class="zoom menu1" href='index3.html'>Our Values</a>
+        <a class="zoom menu1" href='index4.html'>Career</a>
     </div>
 </div>
 
-<div class="banner1" id="target" id="home">
-    <div class="bannercont">
-        <div class="intro">
-            <div class="intro1">The All In One Financial</div>
-            <div class="intro1">Solution You Ever Wanted</div>
+<div class="banner1 container-fluid" id="target" id="home">
+    <div class="row">
+        <div class="intro col-5">
+            <div class="intro1">The All In One</div>
+            <div class="intro1">Financial Solution</div>
+            <div class="intro1">You Ever Wanted</div>
         </div>
 
-        <div class="miniboxcont">
-            <a class="zoom minibox" href="#story">Our Story</a>
-            <a class="zoom minibox" href="#mission">Mission</a>
-            <a class="zoom minibox" href="#team">Meet Our Team</a>
-        </div>
+        <img src="banner1.png" class="col-6 img-fluid">
     </div>
-    <img src="banner1.png" class="main">
+
+    <div class="miniboxcont row">
+        <a class="zoom minibox col-xl-2" href="#story">Our Story</a>
+        <a class="zoom minibox col-xl-2" href="#mission">Mission</a>
+        <a class="zoom minibox col-xl-2" href="#team">Meet Our Team</a>
+    </div>
 </div>
 
 <div class="banner2 reveal" id="story">
@@ -52,39 +57,39 @@
     </div>
 </div>
 
-<div class="banner3 reveal" id="mission">
-    <p class="missionhead">Our Mission</p>
-    <div class="missioncontent">
-        <p class="pmar">United Elite is a financial institution that provides a range of financial services. These include providing financial advice, 
-        offering loan options, and various additional services related to managing finances.</p>
-        <p class="pmar">Building on our extensive banking experience United Elite provides financial consultation and planning schemes customized to help 
+<div class="banner3 container-fluid row reveal" id="mission">
+    <div class="missionhead col-xl-5 mt-auto mb-auto">Our Mission</div>
+    <div class="missioncontent col-xl-6 m-auto">
+        <div class="pmar">United Elite is a financial institution that provides a range of financial services. These include providing financial advice, 
+        offering loan options, and various additional services related to managing finances.</div>
+        <div class="pmar">Building on our extensive banking experience United Elite provides financial consultation and planning schemes customized to help 
         promote financial stability by ensuring that individuals from all financial backgrounds have access to the necessary means to grow and 
-        expand their wealth.</p>
-        <p class="pmar">The mission of United Elite is to offer diverse financial services to clients, which involve financial advice and assistance 
+        expand their wealth.</div>
+        <div class="pmar">The mission of United Elite is to offer diverse financial services to clients, which involve financial advice and assistance 
         in personal finance, home, auto finance, and credit cards. These services are provided by experienced and competent financial advisors. 
         Our primary goal is to assist our clients in realizing their financial objectives and constructing long-term wealth through reliable 
-        expert guidance.</p>
+        expert guidance.</div>
     </div>
 </div>
 
-<div class="banner4 reveal" id="team">
+<div class="banner4 container-fluid row reveal" id="team">
     <div class="meet">Meet Our Team</div>
 
-    <div class="teamcont">
+    <div class="teamcont row">
 
-        <div class="tmar">
+        <div class="tmar col-xl-3">
             <img src="ulogo.png" class="ulogo">
             <div class="name tmar2">Shaimaa Atef</div>
             <div class="title tmar2">Director</div>
         </div>
 
-        <div class="tmar">
+        <div class="tmar col-xl-3">
             <img src="ulogo.png" class="ulogo">
             <div class="name tmar2">Habiba Kotb</div>
             <div class="title tmar2">Operation Manager</div>
         </div>
 
-        <div class="tmar">
+        <div class="tmar col-xl-3">
             <img src="ulogo.png" class="ulogo">
             <div class="name tmar2">Iman Ghamarawi</div>
             <div class="title tmar2">Sales Manager</div>
@@ -103,6 +108,7 @@
             <a class="footmenu" href='#home'>Home</a>
             <a class="footmenu" href='index2.html'>Services</a>
             <a class="footmenu" href='index3.html'>Our Values</a>
+            <a class="footmenu" href='index4.html'>Career</a>
         </div>
         <div class="address">
             <p>Khalifa street, Ras El Khema Bank Building</p>
@@ -125,6 +131,7 @@
     <span id="progress-value"><i class="fa-solid fa-chevron-up"></i></span>
 </div>
 
+<script src="bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
