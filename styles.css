@@ -75,6 +75,11 @@ margin-right: auto; margin-top: 3%;}
 
 .storymar {margin: 2%;}
 
+@media only screen and (max-width: 2400px) {
+  .tmar {height: 52vh !important;}
+  .banner3 {height: 100vh !important;}
+}
+
 @media only screen and (max-width: 1400px) {
   .tmar {height: 52vh !important;}
   .banner3 {height: 100vh !important;}
@@ -121,7 +126,7 @@ margin-right: auto; margin-top: 3%;}
 
 @media only screen and (max-width: 1000px) {
   .tmar {height: 50vh !important;}
-  .banner3 {height: 150vh !important;}
+  .banner3 {height: 120vh !important;}
   .missioncontent {width: 85% !important;
     font-size: 3.8vw !important;}
   }
