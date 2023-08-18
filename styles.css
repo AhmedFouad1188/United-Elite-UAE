@@ -82,7 +82,7 @@ margin-right: auto; margin-top: 3%;}
 
 @media only screen and (max-width: 1280px) {
   .tmar {height: 50vh !important; width: 25vw !important;}
-  .banner3 {height: 80vh !important;}
+  .banner3 {height: 100vh !important;}
 }
 
 @media only screen and (max-width: 1200px) {
@@ -94,7 +94,7 @@ margin-right: auto; margin-top: 3%;}
   .banner3 {padding: 5%;
   background-image: url('banner3vert.jpg') !important;
   background-size: 100% !important;
-  height: 100vh !important;}
+  height: 90vh !important;}
 
   .missioncontent {font-size: 3.4vw !important; 
   text-align: center !important;
