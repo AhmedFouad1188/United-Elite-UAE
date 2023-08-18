@@ -77,12 +77,12 @@ margin-right: auto; margin-top: 3%;}
 
 @media only screen and (max-width: 1400px) {
   .tmar {height: 52vh !important;}
-  .banner3 {height: 120vh !important;}
+  .banner3 {height: 100vh !important;}
   }
 
 @media only screen and (max-width: 1280px) {
   .tmar {height: 50vh !important; width: 25vw !important;}
-  .banner3 {height: 80vh !important;}
+  .banner3 {height: 100vh !important;}
 }
 
 @media only screen and (max-width: 1200px) {
