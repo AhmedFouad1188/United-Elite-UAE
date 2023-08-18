@@ -150,11 +150,11 @@ margin-right: auto; margin-top: 3%;}
 }
 
 @media only screen and (max-width: 380px) {
-  .banner3 {height: 100vh !important;}
+  .banner3 {height: 120vh !important;}
 }
 
 @media only screen and (max-width: 300px) {
-  .banner3 {height: 100vh !important;}
+  .banner3 {height: 85vh !important;}
   .missioncontent {font-size: 4.2vw !important;}
 }
 
